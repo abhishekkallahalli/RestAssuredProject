@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="org.tyss.university.modules.GetUniversityNameTest"/>
+      <class name="org.tyss.university.modules.PutUniversity413Test"/>
+      <class name="org.tyss.university.modules.DeleteUniversityNameTest"/>
+      <class name="org.tyss.university.modules.GetUniversitiesTest"/>
+      <class name="org.tyss.university.modules.PostUniversityTest"/>
+      <class name="org.tyss.university.modules.GetUniversity247Test"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

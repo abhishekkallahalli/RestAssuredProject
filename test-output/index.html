@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>D:\IT Career\WORKBENCH\Maven RestAssured\RestAssuredProject\SuiteFile.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">18 methods,   18 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.DeleteUniversityNameTest" class="method navigator-link" hash-for-method="DeleteUniversityName">DeleteUniversityName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.GetUniversitiesTest" class="method navigator-link" hash-for-method="GetUniversities">GetUniversities</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.GetUniversity247Test" class="method navigator-link" hash-for-method="GetUniversity247">GetUniversity247</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.PostUniversityTest" class="method navigator-link" hash-for-method="createUniversityWithPost">createUniversityWithPost</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.GetUniversityNameTest" class="method navigator-link" hash-for-method="getUniversityName">getUniversityName</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.PutUniversity413Test" class="method navigator-link" hash-for-method="updateUniversity413">updateUniversity413</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.DeleteUniversityNameTest" class="method navigator-link" hash-for-method="validateDeleteForNotFoundRequest">validateDeleteForNotFoundRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.DeleteUniversityNameTest" class="method navigator-link" hash-for-method="validateDeleteForNotValidRequest">validateDeleteForNotValidRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.DeleteUniversityNameTest" class="method navigator-link" hash-for-method="validateDeleteForUnauthorization">validateDeleteForUnauthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.GetUniversity247Test" class="method navigator-link" hash-for-method="validateGetForNotFoundRequest">validateGetForNotFoundRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.GetUniversitiesTest" class="method navigator-link" hash-for-method="validateGetForUnauthorization">validateGetForUnauthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.GetUniversity247Test" class="method navigator-link" hash-for-method="validateGetForUnauthorization">validateGetForUnauthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.GetUniversityNameTest" class="method navigator-link" hash-for-method="validateGetUniversityNameForBadRequest">validateGetUniversityNameForBadRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.GetUniversityNameTest" class="method navigator-link" hash-for-method="validateGetUniversityNameForNotFound">validateGetUniversityNameForNotFound</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.GetUniversityNameTest" class="method navigator-link" hash-for-method="validateGetUniversityNameForUnauthorized">validateGetUniversityNameForUnauthorized</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.PostUniversityTest" class="method navigator-link" hash-for-method="validatePostForNotFoundRequest">validatePostForNotFoundRequest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.PostUniversityTest" class="method navigator-link" hash-for-method="validatePostForUnauthorization">validatePostForUnauthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="org.tyss.university.modules.PutUniversity413Test" class="method navigator-link" hash-for-method="validateUpdateForUnauthorization">validateUpdateForUnauthorization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.tyss.university.modules.GetUniversity247Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetUniversity247">
+                  </a> <!-- GetUniversity247 -->
+                  <span class="method-name">GetUniversity247</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetForNotFoundRequest">
+                  </a> <!-- validateGetForNotFoundRequest -->
+                  <span class="method-name">validateGetForNotFoundRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetForUnauthorization">
+                  </a> <!-- validateGetForUnauthorization -->
+                  <span class="method-name">validateGetForUnauthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.tyss.university.modules.PutUniversity413Test</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="updateUniversity413">
+                  </a> <!-- updateUniversity413 -->
+                  <span class="method-name">updateUniversity413</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateUpdateForUnauthorization">
+                  </a> <!-- validateUpdateForUnauthorization -->
+                  <span class="method-name">validateUpdateForUnauthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.tyss.university.modules.PostUniversityTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="createUniversityWithPost">
+                  </a> <!-- createUniversityWithPost -->
+                  <span class="method-name">createUniversityWithPost</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePostForNotFoundRequest">
+                  </a> <!-- validatePostForNotFoundRequest -->
+                  <span class="method-name">validatePostForNotFoundRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validatePostForUnauthorization">
+                  </a> <!-- validatePostForUnauthorization -->
+                  <span class="method-name">validatePostForUnauthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.tyss.university.modules.DeleteUniversityNameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="DeleteUniversityName">
+                  </a> <!-- DeleteUniversityName -->
+                  <span class="method-name">DeleteUniversityName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDeleteForNotFoundRequest">
+                  </a> <!-- validateDeleteForNotFoundRequest -->
+                  <span class="method-name">validateDeleteForNotFoundRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDeleteForNotValidRequest">
+                  </a> <!-- validateDeleteForNotValidRequest -->
+                  <span class="method-name">validateDeleteForNotValidRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateDeleteForUnauthorization">
+                  </a> <!-- validateDeleteForUnauthorization -->
+                  <span class="method-name">validateDeleteForUnauthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.tyss.university.modules.GetUniversitiesTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="GetUniversities">
+                  </a> <!-- GetUniversities -->
+                  <span class="method-name">GetUniversities</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetForUnauthorization">
+                  </a> <!-- validateGetForUnauthorization -->
+                  <span class="method-name">validateGetForUnauthorization</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">org.tyss.university.modules.GetUniversityNameTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="getUniversityName">
+                  </a> <!-- getUniversityName -->
+                  <span class="method-name">getUniversityName</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetUniversityNameForBadRequest">
+                  </a> <!-- validateGetUniversityNameForBadRequest -->
+                  <span class="method-name">validateGetUniversityNameForBadRequest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetUniversityNameForNotFound">
+                  </a> <!-- validateGetUniversityNameForNotFound -->
+                  <span class="method-name">validateGetUniversityNameForNotFound</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateGetUniversityNameForUnauthorized">
+                  </a> <!-- validateGetUniversityNameForUnauthorized -->
+                  <span class="method-name">validateGetUniversityNameForUnauthorized</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\IT Career\WORKBENCH\Maven RestAssured\RestAssuredProject\SuiteFile.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;org.tyss.university.modules.GetUniversityNameTest&quot;/&gt;
+      &lt;class name=&quot;org.tyss.university.modules.PutUniversity413Test&quot;/&gt;
+      &lt;class name=&quot;org.tyss.university.modules.DeleteUniversityNameTest&quot;/&gt;
+      &lt;class name=&quot;org.tyss.university.modules.GetUniversitiesTest&quot;/&gt;
+      &lt;class name=&quot;org.tyss.university.modules.PostUniversityTest&quot;/&gt;
+      &lt;class name=&quot;org.tyss.university.modules.GetUniversity247Test&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(18);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'getUniversityName')
+data.setCell(0, 2, 'org.tyss.university.modules.GetUniversityNameTest')
+data.setCell(0, 3, 3966);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'GetUniversities')
+data.setCell(1, 2, 'org.tyss.university.modules.GetUniversitiesTest')
+data.setCell(1, 3, 133);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'GetUniversity247')
+data.setCell(2, 2, 'org.tyss.university.modules.GetUniversity247Test')
+data.setCell(2, 3, 81);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'validateGetUniversityNameForBadRequest')
+data.setCell(3, 2, 'org.tyss.university.modules.GetUniversityNameTest')
+data.setCell(3, 3, 74);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'createUniversityWithPost')
+data.setCell(4, 2, 'org.tyss.university.modules.PostUniversityTest')
+data.setCell(4, 3, 58);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'validateGetUniversityNameForNotFound')
+data.setCell(5, 2, 'org.tyss.university.modules.GetUniversityNameTest')
+data.setCell(5, 3, 47);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'validatePostForUnauthorization')
+data.setCell(6, 2, 'org.tyss.university.modules.PostUniversityTest')
+data.setCell(6, 3, 46);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'validateGetUniversityNameForUnauthorized')
+data.setCell(7, 2, 'org.tyss.university.modules.GetUniversityNameTest')
+data.setCell(7, 3, 45);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'updateUniversity413')
+data.setCell(8, 2, 'org.tyss.university.modules.PutUniversity413Test')
+data.setCell(8, 3, 39);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'DeleteUniversityName')
+data.setCell(9, 2, 'org.tyss.university.modules.DeleteUniversityNameTest')
+data.setCell(9, 3, 38);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'validateDeleteForUnauthorization')
+data.setCell(10, 2, 'org.tyss.university.modules.DeleteUniversityNameTest')
+data.setCell(10, 3, 37);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'validateUpdateForUnauthorization')
+data.setCell(11, 2, 'org.tyss.university.modules.PutUniversity413Test')
+data.setCell(11, 3, 35);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'validateDeleteForNotValidRequest')
+data.setCell(12, 2, 'org.tyss.university.modules.DeleteUniversityNameTest')
+data.setCell(12, 3, 34);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validatePostForNotFoundRequest')
+data.setCell(13, 2, 'org.tyss.university.modules.PostUniversityTest')
+data.setCell(13, 3, 32);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'validateGetForUnauthorization')
+data.setCell(14, 2, 'org.tyss.university.modules.GetUniversitiesTest')
+data.setCell(14, 3, 28);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'validateGetForUnauthorization')
+data.setCell(15, 2, 'org.tyss.university.modules.GetUniversity247Test')
+data.setCell(15, 3, 28);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'validateDeleteForNotFoundRequest')
+data.setCell(16, 2, 'org.tyss.university.modules.DeleteUniversityNameTest')
+data.setCell(16, 3, 23);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'validateGetForNotFoundRequest')
+data.setCell(17, 2, 'org.tyss.university.modules.GetUniversity247Test')
+data.setCell(17, 3, 19);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 4 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.tyss.university.modules.GetUniversityNameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=GetUniversityNameTest.getUniversityName()[pri:1, insta...)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">getUniversityName</span>
+                <span class="method-start">31 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=GetUniversityNameTest.validateGetUniversityNameForBadR...)</span>
+                <span class="method-start">4007 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateGetUniversityNameForBadRequest</span>
+                <span class="method-start">4021 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=GetUniversityNameTest.validateGetUniversityNameForUnau...)</span>
+                <span class="method-start">4099 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateGetUniversityNameForUnauthorized</span>
+                <span class="method-start">4104 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=GetUniversityNameTest.validateGetUniversityNameForNotF...)</span>
+                <span class="method-start">4164 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateGetUniversityNameForNotFound</span>
+                <span class="method-start">4166 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.tyss.university.modules.PutUniversity413Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=PutUniversity413Test.updateUniversity413()[pri:1, inst...)</span>
+                <span class="method-start">4223 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">updateUniversity413</span>
+                <span class="method-start">4225 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=PutUniversity413Test.validateUpdateForUnauthorization(...)</span>
+                <span class="method-start">4268 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateUpdateForUnauthorization</span>
+                <span class="method-start">4273 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.tyss.university.modules.DeleteUniversityNameTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=DeleteUniversityNameTest.DeleteUniversityName()[pri:1,...)</span>
+                <span class="method-start">4313 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">DeleteUniversityName</span>
+                <span class="method-start">4317 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=DeleteUniversityNameTest.validateDeleteForUnauthorizat...)</span>
+                <span class="method-start">4358 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateDeleteForUnauthorization</span>
+                <span class="method-start">4360 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=DeleteUniversityNameTest.validateDeleteForNotFoundRequ...)</span>
+                <span class="method-start">4400 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateDeleteForNotFoundRequest</span>
+                <span class="method-start">4403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=DeleteUniversityNameTest.validateDeleteForNotValidRequ...)</span>
+                <span class="method-start">4432 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateDeleteForNotValidRequest</span>
+                <span class="method-start">4434 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.tyss.university.modules.GetUniversitiesTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=GetUniversitiesTest.GetUniversities()[pri:1, instance:...)</span>
+                <span class="method-start">4472 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetUniversities</span>
+                <span class="method-start">4475 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=GetUniversitiesTest.validateGetForUnauthorization()[pr...)</span>
+                <span class="method-start">4616 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateGetForUnauthorization</span>
+                <span class="method-start">4618 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.tyss.university.modules.PostUniversityTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=PostUniversityTest.createUniversityWithPost()[pri:1, i...)</span>
+                <span class="method-start">4656 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">createUniversityWithPost</span>
+                <span class="method-start">4658 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=PostUniversityTest.validatePostForUnauthorization()[pr...)</span>
+                <span class="method-start">4722 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePostForUnauthorization</span>
+                <span class="method-start">4726 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=PostUniversityTest.validatePostForNotFoundRequest()[pr...)</span>
+                <span class="method-start">4780 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validatePostForNotFoundRequest</span>
+                <span class="method-start">4783 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">org.tyss.university.modules.GetUniversity247Test</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=GetUniversity247Test.GetUniversity247()[pri:1, instanc...)</span>
+                <span class="method-start">4819 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">GetUniversity247</span>
+                <span class="method-start">4822 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=GetUniversity247Test.validateGetForUnauthorization()[p...)</span>
+                <span class="method-start">4904 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateGetForUnauthorization</span>
+                <span class="method-start">4907 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp([TestResult name={null} status=CREATED method=GetUniversity247Test.validateGetForNotFoundRequest()[p...)</span>
+                <span class="method-start">4940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">validateGetForNotFoundRequest</span>
+                <span class="method-start">4944 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

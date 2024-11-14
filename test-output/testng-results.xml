@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="18" passed="18" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-11-14T18:29:58 IST" name="Suite" finished-at="2024-11-14T18:30:04 IST" duration-ms="5432">
+    <groups>
+    </groups>
+    <test started-at="2024-11-14T18:29:58 IST" name="Test" finished-at="2024-11-14T18:30:04 IST" duration-ms="5432">
+      <class name="org.tyss.university.modules.PutUniversity413Test">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.PutUniversity413Test@169e6180]" started-at="2024-11-14T18:30:03 IST" name="setUp" finished-at="2024-11-14T18:30:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=PutUniversity413Test.updateUniversity413()[pri:1, instance:org.tyss.university.modules.PutUniversity413Test@169e6180] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="updateUniversity413()[pri:1, instance:org.tyss.university.modules.PutUniversity413Test@169e6180]" started-at="2024-11-14T18:30:03 IST" name="updateUniversity413" finished-at="2024-11-14T18:30:03 IST" duration-ms="39" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUniversity413 -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.PutUniversity413Test@169e6180]" started-at="2024-11-14T18:30:03 IST" name="setUp" finished-at="2024-11-14T18:30:03 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=PutUniversity413Test.validateUpdateForUnauthorization()[pri:2, instance:org.tyss.university.modules.PutUniversity413Test@169e6180] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateUpdateForUnauthorization()[pri:2, instance:org.tyss.university.modules.PutUniversity413Test@169e6180]" started-at="2024-11-14T18:30:03 IST" name="validateUpdateForUnauthorization" finished-at="2024-11-14T18:30:03 IST" duration-ms="35" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateUpdateForUnauthorization -->
+      </class> <!-- org.tyss.university.modules.PutUniversity413Test -->
+      <class name="org.tyss.university.modules.PostUniversityTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.PostUniversityTest@6283d8b8]" started-at="2024-11-14T18:30:04 IST" name="setUp" finished-at="2024-11-14T18:30:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostUniversityTest.createUniversityWithPost()[pri:1, instance:org.tyss.university.modules.PostUniversityTest@6283d8b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="createUniversityWithPost()[pri:1, instance:org.tyss.university.modules.PostUniversityTest@6283d8b8]" started-at="2024-11-14T18:30:04 IST" name="createUniversityWithPost" finished-at="2024-11-14T18:30:04 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUniversityWithPost -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.PostUniversityTest@6283d8b8]" started-at="2024-11-14T18:30:04 IST" name="setUp" finished-at="2024-11-14T18:30:04 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostUniversityTest.validatePostForUnauthorization()[pri:2, instance:org.tyss.university.modules.PostUniversityTest@6283d8b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePostForUnauthorization()[pri:2, instance:org.tyss.university.modules.PostUniversityTest@6283d8b8]" started-at="2024-11-14T18:30:04 IST" name="validatePostForUnauthorization" finished-at="2024-11-14T18:30:04 IST" duration-ms="46" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostForUnauthorization -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.PostUniversityTest@6283d8b8]" started-at="2024-11-14T18:30:04 IST" name="setUp" finished-at="2024-11-14T18:30:04 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=PostUniversityTest.validatePostForNotFoundRequest()[pri:3, instance:org.tyss.university.modules.PostUniversityTest@6283d8b8] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validatePostForNotFoundRequest()[pri:3, instance:org.tyss.university.modules.PostUniversityTest@6283d8b8]" started-at="2024-11-14T18:30:04 IST" name="validatePostForNotFoundRequest" finished-at="2024-11-14T18:30:04 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validatePostForNotFoundRequest -->
+      </class> <!-- org.tyss.university.modules.PostUniversityTest -->
+      <class name="org.tyss.university.modules.DeleteUniversityNameTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.DeleteUniversityNameTest@47987356]" started-at="2024-11-14T18:30:03 IST" name="setUp" finished-at="2024-11-14T18:30:03 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DeleteUniversityNameTest.DeleteUniversityName()[pri:1, instance:org.tyss.university.modules.DeleteUniversityNameTest@47987356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="DeleteUniversityName()[pri:1, instance:org.tyss.university.modules.DeleteUniversityNameTest@47987356]" started-at="2024-11-14T18:30:03 IST" name="DeleteUniversityName" finished-at="2024-11-14T18:30:03 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteUniversityName -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.DeleteUniversityNameTest@47987356]" started-at="2024-11-14T18:30:03 IST" name="setUp" finished-at="2024-11-14T18:30:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DeleteUniversityNameTest.validateDeleteForUnauthorization()[pri:2, instance:org.tyss.university.modules.DeleteUniversityNameTest@47987356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDeleteForUnauthorization()[pri:2, instance:org.tyss.university.modules.DeleteUniversityNameTest@47987356]" started-at="2024-11-14T18:30:03 IST" name="validateDeleteForUnauthorization" finished-at="2024-11-14T18:30:03 IST" duration-ms="37" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteForUnauthorization -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.DeleteUniversityNameTest@47987356]" started-at="2024-11-14T18:30:03 IST" name="setUp" finished-at="2024-11-14T18:30:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DeleteUniversityNameTest.validateDeleteForNotFoundRequest()[pri:3, instance:org.tyss.university.modules.DeleteUniversityNameTest@47987356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDeleteForNotFoundRequest()[pri:3, instance:org.tyss.university.modules.DeleteUniversityNameTest@47987356]" started-at="2024-11-14T18:30:03 IST" name="validateDeleteForNotFoundRequest" finished-at="2024-11-14T18:30:03 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteForNotFoundRequest -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.DeleteUniversityNameTest@47987356]" started-at="2024-11-14T18:30:03 IST" name="setUp" finished-at="2024-11-14T18:30:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=DeleteUniversityNameTest.validateDeleteForNotValidRequest()[pri:4, instance:org.tyss.university.modules.DeleteUniversityNameTest@47987356] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateDeleteForNotValidRequest()[pri:4, instance:org.tyss.university.modules.DeleteUniversityNameTest@47987356]" started-at="2024-11-14T18:30:03 IST" name="validateDeleteForNotValidRequest" finished-at="2024-11-14T18:30:03 IST" duration-ms="34" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateDeleteForNotValidRequest -->
+      </class> <!-- org.tyss.university.modules.DeleteUniversityNameTest -->
+      <class name="org.tyss.university.modules.GetUniversityNameTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.GetUniversityNameTest@793be5ca]" started-at="2024-11-14T18:29:59 IST" name="setUp" finished-at="2024-11-14T18:29:59 IST" duration-ms="28" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetUniversityNameTest.getUniversityName()[pri:1, instance:org.tyss.university.modules.GetUniversityNameTest@793be5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="getUniversityName()[pri:1, instance:org.tyss.university.modules.GetUniversityNameTest@793be5ca]" started-at="2024-11-14T18:29:59 IST" name="getUniversityName" finished-at="2024-11-14T18:30:03 IST" duration-ms="3966" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUniversityName -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.GetUniversityNameTest@793be5ca]" started-at="2024-11-14T18:30:03 IST" name="setUp" finished-at="2024-11-14T18:30:03 IST" duration-ms="14" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetUniversityNameTest.validateGetUniversityNameForBadRequest()[pri:2, instance:org.tyss.university.modules.GetUniversityNameTest@793be5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateGetUniversityNameForBadRequest()[pri:2, instance:org.tyss.university.modules.GetUniversityNameTest@793be5ca]" started-at="2024-11-14T18:30:03 IST" name="validateGetUniversityNameForBadRequest" finished-at="2024-11-14T18:30:03 IST" duration-ms="74" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetUniversityNameForBadRequest -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.GetUniversityNameTest@793be5ca]" started-at="2024-11-14T18:30:03 IST" name="setUp" finished-at="2024-11-14T18:30:03 IST" duration-ms="5" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetUniversityNameTest.validateGetUniversityNameForUnauthorized()[pri:3, instance:org.tyss.university.modules.GetUniversityNameTest@793be5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateGetUniversityNameForUnauthorized()[pri:3, instance:org.tyss.university.modules.GetUniversityNameTest@793be5ca]" started-at="2024-11-14T18:30:03 IST" name="validateGetUniversityNameForUnauthorized" finished-at="2024-11-14T18:30:03 IST" duration-ms="45" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetUniversityNameForUnauthorized -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.GetUniversityNameTest@793be5ca]" started-at="2024-11-14T18:30:03 IST" name="setUp" finished-at="2024-11-14T18:30:03 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetUniversityNameTest.validateGetUniversityNameForNotFound()[pri:4, instance:org.tyss.university.modules.GetUniversityNameTest@793be5ca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateGetUniversityNameForNotFound()[pri:4, instance:org.tyss.university.modules.GetUniversityNameTest@793be5ca]" started-at="2024-11-14T18:30:03 IST" name="validateGetUniversityNameForNotFound" finished-at="2024-11-14T18:30:03 IST" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetUniversityNameForNotFound -->
+      </class> <!-- org.tyss.university.modules.GetUniversityNameTest -->
+      <class name="org.tyss.university.modules.GetUniversitiesTest">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.GetUniversitiesTest@22ef9844]" started-at="2024-11-14T18:30:03 IST" name="setUp" finished-at="2024-11-14T18:30:03 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetUniversitiesTest.GetUniversities()[pri:1, instance:org.tyss.university.modules.GetUniversitiesTest@22ef9844] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GetUniversities()[pri:1, instance:org.tyss.university.modules.GetUniversitiesTest@22ef9844]" started-at="2024-11-14T18:30:03 IST" name="GetUniversities" finished-at="2024-11-14T18:30:04 IST" duration-ms="133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUniversities -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.GetUniversitiesTest@22ef9844]" started-at="2024-11-14T18:30:04 IST" name="setUp" finished-at="2024-11-14T18:30:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetUniversitiesTest.validateGetForUnauthorization()[pri:2, instance:org.tyss.university.modules.GetUniversitiesTest@22ef9844] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateGetForUnauthorization()[pri:2, instance:org.tyss.university.modules.GetUniversitiesTest@22ef9844]" started-at="2024-11-14T18:30:04 IST" name="validateGetForUnauthorization" finished-at="2024-11-14T18:30:04 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetForUnauthorization -->
+      </class> <!-- org.tyss.university.modules.GetUniversitiesTest -->
+      <class name="org.tyss.university.modules.GetUniversity247Test">
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.GetUniversity247Test@3b6ddd1d]" started-at="2024-11-14T18:30:04 IST" name="setUp" finished-at="2024-11-14T18:30:04 IST" duration-ms="3" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetUniversity247Test.GetUniversity247()[pri:1, instance:org.tyss.university.modules.GetUniversity247Test@3b6ddd1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="GetUniversity247()[pri:1, instance:org.tyss.university.modules.GetUniversity247Test@3b6ddd1d]" started-at="2024-11-14T18:30:04 IST" name="GetUniversity247" finished-at="2024-11-14T18:30:04 IST" duration-ms="81" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetUniversity247 -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.GetUniversity247Test@3b6ddd1d]" started-at="2024-11-14T18:30:04 IST" name="setUp" finished-at="2024-11-14T18:30:04 IST" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetUniversity247Test.validateGetForUnauthorization()[pri:2, instance:org.tyss.university.modules.GetUniversity247Test@3b6ddd1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateGetForUnauthorization()[pri:2, instance:org.tyss.university.modules.GetUniversity247Test@3b6ddd1d]" started-at="2024-11-14T18:30:04 IST" name="validateGetForUnauthorization" finished-at="2024-11-14T18:30:04 IST" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetForUnauthorization -->
+        <test-method is-config="true" signature="setUp(org.testng.ITestResult)[pri:0, instance:org.tyss.university.modules.GetUniversity247Test@3b6ddd1d]" started-at="2024-11-14T18:30:04 IST" name="setUp" finished-at="2024-11-14T18:30:04 IST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name={null} status=CREATED method=GetUniversity247Test.validateGetForNotFoundRequest()[pri:3, instance:org.tyss.university.modules.GetUniversity247Test@3b6ddd1d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="validateGetForNotFoundRequest()[pri:3, instance:org.tyss.university.modules.GetUniversity247Test@3b6ddd1d]" started-at="2024-11-14T18:30:04 IST" name="validateGetForNotFoundRequest" finished-at="2024-11-14T18:30:04 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateGetForNotFoundRequest -->
+      </class> <!-- org.tyss.university.modules.GetUniversity247Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
